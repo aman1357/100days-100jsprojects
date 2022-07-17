@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main-div{
+    width:60%;
+    height:50vh;
+    background-color:rgb(75, 126, 111);
+    margin:auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+   position:absolute;
+   display: flex;
+   padding: 50px;;
+   align-items: center;
+   flex-direction: column;
+}
+
+#msg{
+    width:25rem;
+    height:50px;
+    margin:10px;
+    border-color: white;
+
+
+}
+
+#btn{
+   width: 100px;
+   height:30px;
+
+}
+
+#last-msg{
+    color:whitesmoke;
+}
