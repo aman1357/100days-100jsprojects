@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+#main{
+    width:60%;
+    height:50vh;
+    background-color: rgb(100, 133, 143);
+    margin:auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#btn{
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+}
+
+#sub-div{
+    margin-top: 10px;
+}
+
+
+#quote{
+  font-size: 25px;
+}
+
+#quotee{
+    color: white;
+    font-size: larger;
+}
